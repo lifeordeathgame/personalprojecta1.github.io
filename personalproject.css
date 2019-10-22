@@ -1,4 +1,4 @@
-body {height: 100%; width: 100%; margin: 0; padding: 0;}
+body {height: 2160px; width: 1080px; margin: 0; padding: 0;}
 #header {position: relative; top: 10%; height: 20%;}
 #imgs {position: relative; top: 10%; height: 80%;}
 #content {position: relative; top: 30%; height: 60%;}
