@@ -1,4 +1,6 @@
 body {height: 2160px; width: 1080px; margin: 0; padding: 0;}
-#header {position: relative; top: 10%; height: 20%;}
-#imgs {position: relative; top: 10%; height: 80%;}
-#content {position: relative; top: 30%; height: 60%;}
+#header {position: relative; height: 200px; margin: 0; padding: 0;}
+#imgs {position: relative; top: 10%; height: 80%; margin: 0; padding: 0;}
+#content {position: relative; height: 698.9px; margin: 0; padding: 0;}
+#topbar {position: relative; height: 57; background-color: black; margin: 0; padding: 0;}
+#botbar {position: relative; height: 114.1px; background-color: black; margin: 0; padding: 0;}
