@@ -1,6 +1,6 @@
-body {height: 2160px; width: 1080px; margin: 0; padding: 0;}
-#header {position: relative; height: 400px; background-color: lightblue; margin: 0; padding: 0;}
+body {height: 216.0px; width: 108.0px; margin: 0; padding: 0;}
+#header {position: relative; height: 40.0px; background-color: lightblue; margin: 0; padding: 0;}
 #imgs {position: relative; top: 10%; height: 80%; margin: 0; padding: 0;}
-#content {position: relative; height: 1397.8px; background-color: lightcoral; margin: 0; padding: 0;}
-#topbar {position: relative; height: 114px; background-color: black; margin: 0; padding: 0;}
-#botbar {position: relative; height: 228.2px; background-color: black; margin: 0; padding: 0;}
+#content {position: relative; height: 139.78px; background-color: lightcoral; margin: 0; padding: 0;}
+#topbar {position: relative; height: 11.4px; background-color: black; margin: 0; padding: 0;}
+#botbar {position: relative; height: 22.82px; background-color: black; margin: 0; padding: 0;}
