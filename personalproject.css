@@ -21,6 +21,16 @@ body {
   margin: 0; 
   padding: 0;
 }
+.himg {
+  position: relative; 
+  height: 69.12px; 
+  width: 69.12px;
+  margin: 0; 
+  padding: 0;
+}
+#clock {
+  left: 34.56px;
+}
 .divider {
   position: relative;
   height: 30px;
