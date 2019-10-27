@@ -23,13 +23,14 @@ body {
 }
 .himg {
   position: relative; 
-  height: 69.12px; 
-  width: 69.12px;
+  height: 34.56px; 
+  width: 34.56px;
   margin: 0; 
   padding: 0;
 }
 #clock {
-  left: 34.56px;
+  left: 69.12px;
+  top: 17.28px;
 }
 .divider {
   position: relative;
