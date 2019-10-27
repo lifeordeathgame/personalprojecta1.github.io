@@ -8,9 +8,7 @@ body {
   position: relative; 
   height: 86.4px; 
   background-color: #35363A; 
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
+  border-bottom: 1px solid black;
   margin: 0; 
   padding: 0;
 }
@@ -27,7 +25,8 @@ body {
 #content {
   position: relative; 
   height: 691.2px; 
-  background-color: lightcoral; 
+  background-color: #35363A; 
+  border-bottom: 1px solid black;
   margin: 0; 
   padding: 0;
 }
