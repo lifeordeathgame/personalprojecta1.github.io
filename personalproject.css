@@ -8,7 +8,6 @@ body {
   position: relative; 
   height: 86.4px; 
   background-color: #35363A; 
-  border-bottom: 1px solid black;
   margin: 0; 
   padding: 0;
 }
@@ -22,11 +21,18 @@ body {
   margin: 0; 
   padding: 0;
 }
+.divider {
+  position: relative;
+  height: 30px;
+  background color: black;
+  margin: 0; 
+  padding: 0;
+}
+
 #content {
   position: relative; 
-  height: 691.2px; 
+  height: 661.2px; 
   background-color: #35363A; 
-  border-bottom: 1px solid black;
   margin: 0; 
   padding: 0;
 }
