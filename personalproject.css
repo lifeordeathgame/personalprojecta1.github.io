@@ -22,18 +22,19 @@ body {
   padding: 0;
 }
 .himg {
-  position: relative; 
-  height: 34.56px; 
+  position: absolute;
+  height: 34.56px;
   width: 34.56px;
-  margin: 0; 
+  margin: 0;
   padding: 0;
-  top: 17.28px
+  top: 17.28px;
 }
-#upcmng {left: 10px;}
-#clss {left: 100.04px;}
+
+#upcmg {left: 20px;}
+#clss {left: 105.04px;}
 #trck {left: 190.08px;}
-#cal {left: 280.12px;}
-#sets {left: 370.16px;}
+#cal {left: 275.12px;}
+#sets {left: 360.16px;}
 
 .divider {
   position: relative;
@@ -65,3 +66,4 @@ body {
   margin: 0; 
   padding: 0;
 }
+
