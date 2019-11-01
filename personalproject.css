@@ -45,6 +45,7 @@ body {
   font-size: 12px;
   font-color: #dbdbdb;
 }
+.divtxt {  font-size: 12px; font-color: #dbdbdb;}
 
 #content {
   position: relative; 
