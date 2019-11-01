@@ -39,11 +39,20 @@ body {
 .divider {
   position: relative;
   height: 30px;
-  background-color: black;
+  background-color: #181a1b;
   margin: 0; 
   padding: 0;
 }
-.divtxt {  font-size: 12px; font-color: #dbdbdb; position: relative; margin: 0; padding: 0;}
+.divtxt {
+  font-size: 12px; 
+  font-color: #dbdbdb; 
+  position: relative; 
+  margin: 0; 
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  top: 9px;
+  left: 9px;
+}
 
 #content {
   position: relative; 
@@ -56,14 +65,14 @@ body {
 #topbar {
   position: relative; 
   height: 28.8px;
-  background-color: black; 
+  background-color: #181a1b; 
   margin: 0; 
   padding: 0;
 }
 #botbar {
   position: relative;
   height: 57.6px; 
-  background-color: black;
+  background-color: #181a1b;
   margin: 0; 
   padding: 0;
 }
