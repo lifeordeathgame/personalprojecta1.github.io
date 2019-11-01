@@ -43,7 +43,7 @@ body {
   margin: 0; 
   padding: 0;
 }
-.divtxt {  font-size: 12px; font-color: #dbdbdb;}
+.divtxt {  font-size: 12px; font-color: #dbdbdb; position: relative; margin: 0; padding: 0;}
 
 #content {
   position: relative; 
