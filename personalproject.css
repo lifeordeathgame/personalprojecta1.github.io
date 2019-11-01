@@ -67,6 +67,19 @@ div {
   background-color: #35363A; 
 }
 
+.utasks {
+  height: 96.93px;
+  width: 392px;
+  background-color: #dbdbdb;
+  border-radius: 25px;
+  left: 20px;
+}
+#tsk1 {top: 25px;}
+#tsk2 {top: 146.93px;}
+#tsk3 {top: 268.86px;}
+#tsk4 {top: 390.79px;}
+#tsk5 {top: 512.72px;}
+
 #topbar { 
   height: 28.8px;
   background-color: #181a1b; 
