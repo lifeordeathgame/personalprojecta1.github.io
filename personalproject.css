@@ -61,8 +61,8 @@ body {
   position: relative; 
   margin: 0; 
   padding: 0;
-  top: 6px;
-  left: 75px;
+  top: -17px;
+  left: 135px;
 }
 
 #content {
@@ -87,4 +87,3 @@ body {
   margin: 0; 
   padding: 0;
 }
-
