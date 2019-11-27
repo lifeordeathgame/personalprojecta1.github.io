@@ -68,15 +68,14 @@ div {
 }
 
 .utasks {
-  height: 90.93px;
+  height: 130.93px;
   width: 392px;
   background-color: #262626;
-  border-radius: 15px;
   left: 15px;
   position: absolute;
 }
-#tsk1 {top: 51.696px;}
-#tsk2 {top: 200.322px;}
-#tsk3 {top: 348.948px;}
-#tsk4 {top: 497.574px;}
+#tsk1 {top: 24.496px;}
+#tsk2 {top: 179.922px;}
+#tsk3 {top: 335.348px;}
+#tsk4 {top: 490.774px;}
 #tsk5 {top: 512.72px;}
