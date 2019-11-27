@@ -52,6 +52,18 @@ div {
   font-style: oblique;
   font-weight: bold;
 }
+.utasktitle {
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  top: 6px;
+  left: 25px;
+  //font-style: oblique;
+  font-weight: bold;
+}
 #darr {
   height: 20px; 
   width: 20px; 
@@ -59,6 +71,16 @@ div {
   margin: 0; 
   padding: 0;
   top: -17px;
+  left: 135px;
+}
+
+#add {
+  height: 40px; 
+  width: 40px; 
+  position: relative; 
+  margin: 0; 
+  padding: 0;
+  top: 900px;
   left: 135px;
 }
 
