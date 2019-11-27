@@ -70,23 +70,13 @@ div {
 .utasks {
   height: 90.93px;
   width: 392px;
-  background-color: #181a1b;
-  border-radius: 25px;
+  background-color: #262626;
+  border-radius: 15px;
   left: 15px;
   position: absolute;
-  border: 3px solid #dbdbdb;
 }
 #tsk1 {top: 51.696px;}
 #tsk2 {top: 200.322px;}
 #tsk3 {top: 348.948px;}
 #tsk4 {top: 497.574px;}
 #tsk5 {top: 512.72px;}
-
-#topbar { 
-  height: 28.8px;
-  background-color: #181a1b; 
-}
-#botbar {
-  height: 57.6px; 
-  background-color: #181a1b;
-}
