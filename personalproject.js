@@ -2,8 +2,8 @@ var addDiv = function(){
    var ok = true;
 
    if (ok === true) {
-      var div = document.createElement('div');
-      div.className = "utasks";       
-      document.getElementsByTagName('content')[0].appendChild(div);
+      var udiv = document.createElement('div');
+      udiv.setAttribute("class","utasks");    
+      document.getElementsByTagName('content')[0].appendChild(udiv);
    }
 }
