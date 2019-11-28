@@ -1,5 +1,5 @@
-document.getElementById("text").addEventListener('click', add);
-var addRect = function(){
+document.getElementById("add").addEventListener('click', addDiv);
+var addDiv = function(){
    var ok = true;
 
    if (ok === true) {
