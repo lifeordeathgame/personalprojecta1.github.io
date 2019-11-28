@@ -1,4 +1,3 @@
-document.getElementById("add").addEventListener('click', addDiv);
 var addDiv = function(){
    var ok = true;
 
@@ -9,5 +8,3 @@ var addDiv = function(){
       document.getElementsByTagName('body')[0].appendChild(div);
    }
 }
-
-
