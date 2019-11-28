@@ -12,8 +12,9 @@ div {
 }
 
 #navbar{
-  height: 86.4px; 
-  background-color: #262626; 
+  height: 86.4px;
+  background-color: #262626;
+  top: -25px;
 }
 #imgs { 
   top: 8.64px; 
@@ -75,18 +76,19 @@ div {
 }
 
 #add {
-  height: 40px; 
-  width: 40px; 
-  position: relative; 
-  margin: 0; 
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin: 0;
   padding: 0;
-  top: 900px;
-  left: 135px;
+  top: -35px;
+  left: 370px;
 }
 
 #content {
-  height: 646.2px; 
-  background-color: #121212; 
+  height: 646.2px;
+  background-color: #121212;
+  top: -25px;
 }
 
 .utasks {
@@ -94,10 +96,12 @@ div {
   width: 392px;
   background-color: #262626;
   left: 15px;
-  position: absolute;
+  margin-top: 24.496px;
+  margin-bottom: 24.496px;
+  top: 25px;
 }
-#tsk1 {top: 24.496px;}
-#tsk2 {top: 179.922px;}
-#tsk3 {top: 335.348px;}
-#tsk4 {top: 490.774px;}
-#tsk5 {top: 512.72px;}
+#tsk1 {/* top: 24.496px; */}
+#tsk2 {/* top: 179.922px; */}
+#tsk3 {/* top: 335.348px; */}
+#tsk4 {/* top: 490.774px; */}
+#tsk5 {/*top: 512.72px;*/}
