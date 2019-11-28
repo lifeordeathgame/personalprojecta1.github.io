@@ -4,6 +4,6 @@ var addDiv = function(){
    if (ok === true) {
       var div = document.createElement('div');
       div.className = "utasks";       
-      div.appendChild(content);
+      document.getElementsByTagName('content')[0].appendChild(div);
    }
 }
