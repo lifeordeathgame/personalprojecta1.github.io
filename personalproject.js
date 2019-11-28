@@ -4,7 +4,7 @@ var addDiv = function(){
    if (ok === true) {
       var div = document.createElement('div');
 
-      div.idName = "add";       
+      div.idClass = "utasks";       
       document.getElementsByTagName('body')[0].appendChild(div);
    }
 }
