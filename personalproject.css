@@ -78,10 +78,10 @@ div {
 #add {
   height: 50px;
   width: 50px;
-  position: relative;
+  position: fixed;
   margin: 0;
   padding: 0;
-  top: -35px;
+  top: 630px;
   left: 370px;
 }
 
