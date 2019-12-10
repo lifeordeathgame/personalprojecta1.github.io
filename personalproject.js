@@ -8,6 +8,6 @@ var addDiv = function(){
       window.alert("You already have 4 events! Try deleting one by clicking on it.")
    }
 }
-$('.utasks').click(function(){
+document.addEventListener($('.utasks').click, function(){
   $( "#content" ).append( "<p class='utasktitle'>Yo</p>" );
 });
