@@ -1,8 +1,8 @@
 var addDiv = function(){
    x = "tsk"+($('#content .utasks').length+1).toString();
-   y = "addtsk"+($('#content .utasks').length+1).toString()+"()";
+   y = ($('#content .utasks').length+1).toString();
    if ($('#content .utasks').length <= 3){
-      $( "#content" ).append( "<div class='utasks' id='"+x+"' onclick='addtask"+y+"()'></div>" );
+      $( "#content" ).append( "<div class='utasks' id='"+x+"' onclick='addtsk"+y+"()'></div>" );
    }
    else {
       window.alert("You already have 4 events! Try deleting one by clicking on it.");
