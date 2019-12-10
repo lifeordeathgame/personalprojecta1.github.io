@@ -14,7 +14,8 @@ div {
 #navbar{
   height: 86.4px;
   background-color: #262626;
-  top: -25px;
+  top: 645px;
+  /* position: fixed; */
 }
 #imgs { 
   top: 8.64px; 
@@ -90,7 +91,9 @@ div {
 #content {
   height: 646.2px;
   background-color: #121212;
-  top: -25px;
+  top: 45px;
+  width: 432.0px;
+  position: fixed;
 }
 
 .utasks {
@@ -100,7 +103,7 @@ div {
   left: 15px;
   margin-top: 24.496px;
   margin-bottom: 24.496px;
-  top: 25px;
+  /* top: 0px; */
   z-index: 9;
 }
 #tsk1 {/* top: 24.496px; */}
