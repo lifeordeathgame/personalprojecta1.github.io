@@ -1,10 +1,3 @@
-(function($) {
-    $(function() {
-        $('.update').live('change', function() {
-            formObject.run($(this));
-        });
-    });
-})(jQuery);
 var addDiv = function(){
    if ($('#content .utasks').length <= 3){
       $( "#content" ).append( "<div class='utasks' id='tsk1'></div>" );
