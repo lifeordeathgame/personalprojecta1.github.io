@@ -19,7 +19,7 @@ var addtsk1 = function(){
       return;
     } else {
       $( "#tsk1" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      oneclicks += 1;
     }
   }
   else if (oneclicks == 1) {
@@ -29,7 +29,7 @@ var addtsk1 = function(){
       return;
     } else {
       $( "#tsk1" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      oneclicks += 1;
     }
   }
   else {
@@ -42,24 +42,24 @@ var addtsk1 = function(){
   }
 }
 var addtsk2 = function(){
-  if (oneclicks == 0) {
+  if (twoclicks == 0) {
     var prmt = prompt("Please enter subject name:", "Math");
     if (prmt == null || prmt == "") {
       window.alert("You didn't enter a name")
       return;
     } else {
       $( "#tsk2" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      twoclicks += 1;
     }
   }
-  else if (oneclicks == 1) {
+  else if (twoclicks == 1) {
     var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
     if (prmt == null || prmt == "") {
       window.alert("You didn't enter a date")
       return;
     } else {
       $( "#tsk2" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      twoclicks += 1;
     }
   }
   else {
@@ -72,24 +72,24 @@ var addtsk2 = function(){
   }
 }
 var addtsk3 = function(){
-  if (oneclicks == 0) {
+  if (threeclicks == 0) {
     var prmt = prompt("Please enter subject name:", "Math");
     if (prmt == null || prmt == "") {
       window.alert("You didn't enter a name")
       return;
     } else {
       $( "#tsk3" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      threeclicks += 1;
     }
   }
-  else if (oneclicks == 1) {
+  else if (threeclicks == 1) {
     var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
     if (prmt == null || prmt == "") {
       window.alert("You didn't enter a date")
       return;
     } else {
       $( "#tsk3" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      threeclicks += 1;
     }
   }
   else {
@@ -102,24 +102,24 @@ var addtsk3 = function(){
   }
 }
 var addtsk4 = function(){
-  if (oneclicks == 0) {
+  if (fourclicks == 0) {
     var prmt = prompt("Please enter subject name:", "Math");
     if (prmt == null || prmt == "") {
       window.alert("You didn't enter a name")
       return;
     } else {
       $( "#tsk4" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      fourclicks += 1;
     }
   }
-  else if (oneclicks == 1) {
+  else if (fourclicks == 1) {
     var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
     if (prmt == null || prmt == "") {
       window.alert("You didn't enter a date")
       return;
     } else {
       $( "#tsk4" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
-      var oneclicks += 1;
+      fourclicks += 1;
     }
   }
   else {
