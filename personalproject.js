@@ -1,3 +1,4 @@
+var oneclicks, twoclicks, threeclicks, fourclicks = 0;
 var addDiv = function(){
    y = ($('#content .utasks').length+1).toString();
    if ($('#content .utasks').length <= 3){
@@ -8,38 +9,122 @@ var addDiv = function(){
    }
 }
 var addtsk1 = function(){
-  var prmt = prompt("Please enter subject name:", "Math");
-  if (prmt == null || prmt == "") {
-     window.alert("You didn't enter a name")
-     return;
-  } else {
-     $( "#tsk1" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+  if (oneclicks == 0) {
+    var prmt = prompt("Please enter subject name:", "Math");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a name")
+      return;
+    } else {
+      $( "#tsk1" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else if (oneclicks == 1) {
+    var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a date")
+      return;
+    } else {
+      $( "#tsk1" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else {
+    var prmt = prompt("Are you sure you want to delete this?", "yes");
+    if (prmt == "yes") {
+      $(#tsk1).remove();
+    } else {
+      return;
+    }
   }
 }
 var addtsk2 = function(){
-  var prmt = prompt("Please enter subject name:", "Math");
-  if (prmt == null || prmt == "") {
-     window.alert("You didn't enter a name")
-     return;
-  } else {
-     $( "#tsk2" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+  if (oneclicks == 0) {
+    var prmt = prompt("Please enter subject name:", "Math");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a name")
+      return;
+    } else {
+      $( "#tsk2" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else if (oneclicks == 1) {
+    var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a date")
+      return;
+    } else {
+      $( "#tsk2" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else {
+    var prmt = prompt("Are you sure you want to delete this?", "yes");
+    if (prmt == "yes") {
+      $(#tsk2).remove();
+    } else {
+      return;
+    }
   }
 }
 var addtsk3 = function(){
-  var prmt = prompt("Please enter subject name:", "Math");
-  if (prmt == null || prmt == "") {
-     window.alert("You didn't enter a name")
-     return;
-  } else {
-     $( "#tsk3" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+  if (oneclicks == 0) {
+    var prmt = prompt("Please enter subject name:", "Math");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a name")
+      return;
+    } else {
+      $( "#tsk3" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else if (oneclicks == 1) {
+    var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a date")
+      return;
+    } else {
+      $( "#tsk3" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else {
+    var prmt = prompt("Are you sure you want to delete this?", "yes");
+    if (prmt == "yes") {
+      $(#tsk3).remove();
+    } else {
+      return;
+    }
   }
 }
 var addtsk4 = function(){
-  var prmt = prompt("Please enter subject name:", "Math");
-  if (prmt == null || prmt == "") {
-     window.alert("You didn't enter a name")
-     return;
-  } else {
-     $( "#tsk4" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+  if (oneclicks == 0) {
+    var prmt = prompt("Please enter subject name:", "Math");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a name")
+      return;
+    } else {
+      $( "#tsk4" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else if (oneclicks == 1) {
+    var prmt = prompt("Please enter task date (DD/MM/YYYY):", "1/1/2020");
+    if (prmt == null || prmt == "") {
+      window.alert("You didn't enter a date")
+      return;
+    } else {
+      $( "#tsk4" ).append( "<p class='utasktitle'>"+prmt+"</p>" );
+      var oneclicks += 1;
+    }
+  }
+  else {
+    var prmt = prompt("Are you sure you want to delete this?", "yes");
+    if (prmt == "yes") {
+      $(#tsk4).remove();
+    } else {
+      return;
+    }
   }
 }
