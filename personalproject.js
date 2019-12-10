@@ -1,6 +1,6 @@
 var addDiv = function(){
    x = "tsk"+($('#content .utasks').length+1).toString();
-   y = "addtsk"+($('#content .utasks').length+1).toString();
+   y = "addtsk"+($('#content .utasks').length+1).toString()+"()";
    if ($('#content .utasks').length <= 3){
       $( "#content" ).append( "<div class='utasks' id='"+x+"' onclick='"+y+"'></div>" );
    }
