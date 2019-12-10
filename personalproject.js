@@ -1,4 +1,7 @@
-var oneclicks, twoclicks, threeclicks, fourclicks = 0;
+var oneclicks = 0;
+var twoclicks = 0;
+var threeclicks = 0;
+var fourclicks = 0;
 var addDiv = function(){
    y = ($('#content .utasks').length+1).toString();
    if ($('#content .utasks').length <= 3){
