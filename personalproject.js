@@ -1,13 +1,18 @@
-//var x = $("label[class^=utasks]").length  
-//var x = $('#content .utasks').length
+(function($) {
+    $(function() {
+        $('.update').live('change', function() {
+            formObject.run($(this));
+        });
+    });
+})(jQuery);
 var addDiv = function(){
    if ($('#content .utasks').length <= 3){
       $( "#content" ).append( "<div class='utasks' id='tsk1'></div>" );
    }
    else {
-      window.alert("You already have 4 events! Try deleting one by clicking on it.")
+      window.alert("You already have 4 events! Try deleting one by clicking on it.");
    }
 }
-document.addEventListener($('.utasks').click, function(){
-  $( "#content" ).append( "<p class='utasktitle'>Yo</p>" );
+$('.utasks').click(function() {
+  window.alert('hohoho');
 });
