@@ -64,6 +64,7 @@ div {
   left: 25px;
   //font-style: oblique;
   font-weight: bold;
+  z-index: 99;
 }
 #darr {
   height: 20px; 
@@ -83,6 +84,7 @@ div {
   padding: 0;
   top: 630px;
   left: 370px;
+  z-index: 999;
 }
 
 #content {
@@ -99,6 +101,7 @@ div {
   margin-top: 24.496px;
   margin-bottom: 24.496px;
   top: 25px;
+  z-index: 9;
 }
 #tsk1 {/* top: 24.496px; */}
 #tsk2 {/* top: 179.922px; */}
