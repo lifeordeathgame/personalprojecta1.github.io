@@ -1,6 +1,6 @@
 //var x = $("label[class^=utasks]").length  
 var addDiv = function(){
-   print($("label[class^=utasks]").length)
+   window.alert($("label[class^=utasks]").length)
    if ($("label[class^=utasks]").length <= 4){
       $( "#content" ).append( "<div class='utasks' id='tsk1'></div>" );
    }
