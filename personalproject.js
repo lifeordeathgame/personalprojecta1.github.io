@@ -1,5 +1,5 @@
 var addDiv = function(){
-   x = $('#content .utasks').length.toString();
+   x = "tsk"+($('#content .utasks').length+1).toString();
    if ($('#content .utasks').length <= 3){
       $( "#content" ).append( "<div class='utasks' id='"+x+"'></div>" );
    }
