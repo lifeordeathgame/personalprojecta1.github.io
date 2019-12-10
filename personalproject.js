@@ -35,7 +35,7 @@ var addtsk1 = function(){
   else {
     var prmt = prompt("Are you sure you want to delete this?", "yes");
     if (prmt == "yes") {
-      //$(#tsk1).remove();
+      $("#tsk1").remove();
     } else {
       return;
     }
@@ -65,7 +65,7 @@ var addtsk2 = function(){
   else {
     var prmt = prompt("Are you sure you want to delete this?", "yes");
     if (prmt == "yes") {
-      //$(#tsk2).remove();
+      $("#tsk2").remove();
     } else {
       return;
     }
@@ -95,7 +95,7 @@ var addtsk3 = function(){
   else {
     var prmt = prompt("Are you sure you want to delete this?", "yes");
     if (prmt == "yes") {
-      //$(#tsk3).remove();
+      $("#tsk3").remove();
     } else {
       return;
     }
@@ -125,7 +125,7 @@ var addtsk4 = function(){
   else {
     var prmt = prompt("Are you sure you want to delete this?", "yes");
     if (prmt == "yes") {
-      //$(#tsk4).remove();
+      $("#tsk4").remove();
     } else {
       return;
     }
